@@ -9,6 +9,6 @@ spec:
       port: 8000
       targetPort: 8000
       protocol: TCP
-      NodePort: 30004
+      nodePort: 30004
   selector:
     app: hello
