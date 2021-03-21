@@ -16,3 +16,6 @@ spec:
       containers:
       - name: hello
         image: 172.16.0.33:1080/library/hello_flux:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+          - containerPort: 8000
